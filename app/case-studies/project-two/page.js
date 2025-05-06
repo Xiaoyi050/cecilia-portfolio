@@ -17,10 +17,9 @@ export default function ProjectTwoPage() {
       </div>
 
       {/* Navigation */}
-      {/* <div className={styles.nav}>
+      <div className={styles.nav}>
         <Link href="/" className={styles.navLink}>← Home</Link>
-        <Link href="/case-studies/" className={styles.navLink}>← All Case Studies</Link>
-      </div> */}
+      </div>
 
       {/* Content */}
       <section className={styles.content}>

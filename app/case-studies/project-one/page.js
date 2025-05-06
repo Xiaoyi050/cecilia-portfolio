@@ -17,10 +17,9 @@ export default function ProjectOnePage() {
       </div>
 
       {/* Back to home / case studies nav (optional) */}
-      {/* <div className={styles.nav}>
+      <div className={styles.nav}>
         <Link href="/" className={styles.navLink}>← Home</Link>
-        <Link href="/case-studies/" className={styles.navLink}>← All Case Studies</Link>
-      </div> */}
+      </div>
 
       {/* Page content */}
       <section className={styles.content}>
