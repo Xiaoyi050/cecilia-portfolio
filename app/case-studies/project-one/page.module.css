@@ -1,0 +1,57 @@
+/* Banner styling */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;       /* left‐align text */
+    justify-content: center;
+    
+    width: 100%;
+    height: 30vh;
+    padding: 2rem;
+  
+    /* same gradient as home for consistency */
+    background: linear-gradient(225deg, #fde4ec 0%, #ffffff 50%, #f8c0d2 100%);
+    color: #f06595;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  
+  .banner h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .meta {
+    margin-top: 1rem;
+  }
+  
+  .meta h4 {
+    margin: 0.25rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  
+  /* Optional small nav under banner */
+  .nav {
+    margin: 1.5rem 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navLink {
+    color: #1f77b4;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content area */
+  .content {
+    padding: 0 2rem 4rem;
+    line-height: 1.6;
+  }
+  
