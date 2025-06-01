@@ -23,6 +23,7 @@ const caseStudies = [
     title: 'BeSpurr',
     desc: 'a dynamic Snapchat Map extension that empowers users to efficiently discover, host, and attend spontaneous events on their own terms.',
     image: '/placeholder2.png',
+    externalUrl: 'https://sure-world-154849.framer.app/', // Framer link
   },
 ];
 
